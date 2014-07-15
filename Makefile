@@ -1,6 +1,7 @@
 JS_TESTER = ./node_modules/vows/bin/vows
 JS_COMPILER = ./node_modules/uglify-js/bin/uglifyjs
 
+
 .PHONY: test
 
 all: cubism.v1.min.js package.json
